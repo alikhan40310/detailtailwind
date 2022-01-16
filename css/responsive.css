@@ -1,0 +1,30 @@
+/* Large Desktop*/
+@media (max-width: 1300px) {
+
+}
+/* portrait tablet to ladscape  */
+@media (min-width: 768px) and (max-width: 991px) {
+	
+}
+@media (max-width: 1199px) {
+	
+}
+/* portrait tablet to ladscape  */
+@media (min-width: 768px) and (max-width: 991px) {
+	.h-line::before{margin-top: 3em;}
+}
+
+/* Portrait Phone  */
+@media (max-width: 991px) {
+}
+@media screen and (max-width:479px){
+
+}
+@media screen and (max-width:800px){
+.c-w-full{width: 100%;}
+	.h-line::before{margin-top: 3em;}
+}
+
+@media screen and (max-width:600px){
+	
+}

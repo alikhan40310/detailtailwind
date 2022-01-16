@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Edit</title>
+    <!-- CSS File attachment -->
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/responsive.css">
+    <link rel="stylesheet" type="text/css" href="css/fontawesome.min.css">
+    <link rel="stylesheet" type="text/css" href="css/all.css">
+    <!-- fevicon icon -->
+    <link rel="icon" type="image/jpg" href="image/avatar.png">
+    <!-- google font attachment -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <section>
+        <div class="container mt-10 mx-auto justify-between flex flex-wrap  flex-col md:flex-row items-center">
+            <div class="list">
+                <ul class="flex pl-6">
+                    <li class="pr-10 capitalize font-semibold text-green-500 text-2xl"><a href="edit.html">Details</a></li>
+                    <li class="pr-10 capitalize font-medium text-gray-600 text-2xl"><a href="#">notes</a></li>
+                    <li class="pr-10 capitalize font-medium text-gray-600 text-2xl"><a href="#">case history</a></li>
+                    <li class="pr-10 capitalize font-medium text-gray-600 text-2xl"><a href="#">feedback</a></li>
+                </ul>
+            </div>
+            <div class="line w-full h-1 mb-10 mt-2 rounded bg-gray-400"></div>
+        </div>
+    </section>
+    <section>
+        <div class="container mx-auto pb-10">
+            <div class="bg-white p-5 border border-gray-300 rounded-xl mr-10 w-full pb-10">
+                <div class="flex justify-between">
+                    <h3 class="lg:text-2xl md:text-xl sm:text-lg h-line text-gray-600">Case against my coworker for pin pointing my faults in front of others</h3>
+                    <div class="button">
+                        <button class="bg-blue-500 px-6 lg:mb-0 md:mb-1 sm:mb-2 font-semibold py-2 mr-4 rounded-lg text-white text-lg" type="submit">Cancel</button>
+                        <button class="bg-green-cus px-6 py-2 font-semibold rounded-lg text-white text-lg" type="submit">Save</button>
+                    </div>
+                </div>
+                <div class="section">
+                    <div class="flex">
+                        <div class="mt-12 w-1/2">
+                            <div class="text-gray-800">
+                                <i class="fas fa-user lg:text-2xl md:text-xl sm:text-lg"></i>
+                                <span class="lg:text-2xl md:text-xl sm:text-lg pl-2 capitalize">jane doe</span>
+                            </div>
+                            <div class="mt-4">
+                                <i class="fas fa-map-marker-alt lg:text-2xl md:text-xl sm:text-lg"></i>
+                                <span class="lg:text-2xl md:text-xl sm:text-lg pl-2 capitalize">N/A</span>
+                            </div>
+                        </div>
+                        <div class="mt-12 w-1/2">
+                            <div class="text-gray-800">
+                                <i class="fas fa-chevron-right lg:text-2xl md:text-xl sm:text-lg"></i>
+                                <span class="lg:text-2xl md:text-xl sm:text-lg pl-4 capitalize">N/A</span>
+                            </div>
+                            <div class="mt-4">
+                                <i class="fas fa-exclamation-circle lg:text-2xl md:text-xl sm:text-lg"></i>
+                                <span class="lg:text-2xl md:text-xl sm:text-lg pl-2 capitalize">Normal</span>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="text-lg mt-6 text-gray-800 ml-2">I would like to register a case against my co-worker 'Test Worker Name'. On Monday, June 13,2021, he pointed out my mistakes so loudly in front of everyone that it made me feel very uncomfortable. This has taken a toll on me.</p>
+                    <div class="line w-full h-px mb-10 mt-4 rounded bg-gray-400"></div>
+                    <div class="flex justify-between">
+                        <div class="text">
+                            <h3 class="text-2xl font-semibold mt-10">Relevant dates</h3>
+                        </div>
+                        <div class="mt-20">
+                            <button type="button">
+                                <i class="fas fa-minus border-2 text-gray-500 text-3xl font-normal p-px rounded-full border-gray-500"></i>
+                            </button>
+                        </div>
+                    </div>
+                    </div>
+                    <div class="dates ml-4">
+                        <ul class="mt-4">
+                            <li class="flex flex-col mb-3 ml-4 mt-10"><a href="#" class="text-xl capitalize mb-1">Pointing</a><span class="text-lg text-gray-600">December 10,2021</span></li>
+                        </ul>
+                    </div>
+                    <div class="forms">
+                        <h5 class="ml-4 text-lg text-gray-600 mt-6">Add a new relevent date:</h5>
+                        <div class="flex flex-row flex-wrap">
+                            <div class="p-2 flex-gow sm:w-full md:w-full lg:w-1/4">
+                                <input type="text" placeholder="Event Description" class="focus:outline-none border-b border-gray-400 p-2 w-full" name="">
+                            </div>
+                            <div class="p-2 sm:w-full md:w-full lg:w-1/5">
+                            <input placeholder="Date" class="focus:outline-none textbox-n border-b border-gray-400 p-2 w-full" type="text" onfocus="(this.type='date')" onblur="(this.type='text')" id="date" />
+                            </div>
+                            <div class="text">
+                              <button class="border border-gray-400 text-gray-500 px-6 py-3 sm:mt-3 md:mt-0 lg:mt-0">Add to timeline</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="outcomes">
+                        <h3 class="text-2xl font-semibold mt-6 capitalize">Preferred outcomes</h3>
+                        <textarea class="focus:outline-none w-full border-b border-gray-500 mt-10 h-28 p-4"></textarea>
+                    </div>
+                    <div class="mt-2">
+                        <h3 class="text-2xl font-semibold mt-6 capitalize">attachments</h3>
+                        <p class="text-xl text-gray-600 mt-2">Visible to everyone with acccess to this case</p>
+                        <div class="mt-2">
+                            <i class="fas fa-plus text-green-500 font-base font-semibold text-base"></i>
+                            <span class="text-2xl text-green-500 font-medium capitalize">add attacment</span>
+                        </div>
+                    </div>
+                    <div class="res">
+                        <h3 class="text-2xl font-semibold mt-6 capitalize">resolution</h3>
+                        <textarea class="focus:outline-none w-full border border-gray-400 p-3 h-40" placeholder="Describe how you're resolving this case"></textarea>
+                        <button type="submit" class="bg-gray-200 mt-10 rounded text-gray-400 font-semibold text-lg p-2">close case with resolution</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+        <!-- jquery attachment -->
+        <script type="text/javascript" src="js/jquery.js"></script>
+        <script type="text/javascript" src="js/fontawesome.min.js"></script>
+        <script type="text/javascript" src="js/all.js"></script>
+        <script type="text/javascript" src="js/custom.js"></script>
+
+</body>
+
+</html>

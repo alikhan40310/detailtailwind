@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>HR Details</title>
+    <!-- CSS File attachment -->
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/responsive.css">
+    <link rel="stylesheet" type="text/css" href="css/fontawesome.min.css">
+    <link rel="stylesheet" type="text/css" href="css/all.css">
+    <!-- fevicon icon -->
+    <link rel="icon" type="image/jpg" href="image/avatar.png">
+    <!-- google font attachment -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <section>
+        <div class="container mt-10 mx-auto justify-between flex-col md:flex-row items-center">
+            <div class="list">
+                <ul class="flex pl-6">
+                    <li class="pr-10 capitalize font-semibold text-green-500 text-2xl"><a href="index.html">Details</a></li>
+                    <li class="pr-10 capitalize font-medium text-gray-600 text-2xl"><a href="notes.html">notes</a></li>
+                    <li class="pr-10 capitalize font-medium text-gray-600 text-2xl"><a href="case.html">case history</a></li>
+                    <li class="pr-10 capitalize font-medium text-gray-600 text-2xl"><a href="feedback.html">feedback</a></li>
+                </ul>
+            </div>
+            <div class="line w-full h-1 mb-10 mt-2 rounded bg-gray-400">
+                <div class="bg-green-500 w-28 h-1"></div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="container mx-auto justify-between flex flex-row sm:flex-wrap md:flex-nowrap lg:flex-nowrap">
+            <div class="md bg-white p-5 border border-gray-300 rounded-xl mr-10 c-w-full sm:w-full md:1/2 lg:w-2/3">
+                <h2 class="text-4xl">Complaint about team lead</h2>
+                <div class="flex flex-col mt-10">
+                    <div class="icon">
+                        <i class="fas fa-user mr-2 text-base"></i><span class="text-lg">Anonymous</span>
+                    </div>
+                    <div class="icon mt-4">
+                        <i class="fas fa-map-marker-alt mr-2 text-base"></i><span class="text-lg">Slack</span>
+                    </div>
+                </div>
+                <p class="text-xl mt-10">My manager said some comments to me that made me feel uncomfortable. She said my work was terrible in front of my coworkers and I don’t think that’s a good work environment.</p>
+                <h3 class="text-2xl font-semibold mt-10">Relevant dates</h3>
+                <div class="dates ml-4">
+                    <ul class="mt-4">
+                        <li class="flex flex-col mb-3"><a href="#" class="text-xl capitalize mb-1">Incident occurred</a><span class="text-lg text-gray-600">Jul 2012</span></li>
+                        <li class="flex flex-col mb-3"><a href="#" class="text-xl capitalize mb-1">Employee submitted case</a><span class="text-lg text-gray-600">Jul 15, 2:00 PM</span></li>
+                        <li class="flex flex-col mb-3"><a href="#" class="text-xl capitalize mb-1">Second occurrence of incident</a><span class="text-lg text-gray-600">Jul 17</span></li>
+                    </ul>
+                </div>
+                <h3 class="text-2xl font-semibold mt-4 capitalize">Preferred outcome</h3>
+                <p class="text-xl">I would like to have the manager reported and reprimanded</p>
+                <h3 class="text-2xl font-semibold mt-4 capitalize">attachments</h3>
+                <p class="text-sm text-gray-400 mt-2">Visible to everyone with access to this case</p>
+                <h4 class="text-2xl mt-3 font-medium">file_name.png</h4>
+                <div class="attachment mt-2">
+                    <i class="fas fa-plus text-green-500 font-base font-semibold text-base"></i>
+                    <span class="text-2xl text-green-500 font-medium capitalize">add attacment</span>
+                </div>
+                <h3 class="text-2xl font-semibold mt-4 capitalize">Resolutions</h3>
+                <p class="text-xl mt-2">Writing up the manager and supporting the employee</p>
+                <button class="bg-green-cus text-white text-lg p-3 mt-6 rounded font-semibold" type="button">Close case with resolution</button>
+            </div>
+            <div class="border border-gray-300 rounded-xl bg-white p-5 c-w-full sm:w-full md:1/2 lg:w-1/3 sm:flex-wrap md:flex-wrap lg:flex-wrap">
+                <h2 class="text-2xl">Reply to employee</h2>
+                <div class="flex h-screen justify-center items-center align-center">
+                    <p class="text-lg ">No messages yet</p>
+                </div>
+                <div class="messegebox">
+                    <div class="main">
+                        <div class="content">
+                            <div class="main flex flex-row">
+                                <div class="mt-3 w-8 h-12">
+                                <i class="fas fa-paperclip text-2xl ml-2 text-gray-400"></i>
+                                </div>
+                                <div class="mt-3 w-8 h-12">
+                                <i class="far fa-file-alt text-2xl ml-2 text-gray-400"></i>
+                                </div>
+                                <div class="item3 flex-grow h-12 flex">
+                                    <input type="text" name="" class="p-2 capitalize ml-2 grow rounded-lg  flex-grow h-full" placeholder="write here...">
+                                </div>
+                                <div class="mt-3 w-8 h-12">
+                                <button type="submit"><i class="text-green-cus far fa-paper-plane text-2xl ml-2"></i></button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+           </div>
+        </div>
+    </section>
+
+
+
+        <!-- jquery attachment -->
+        <script type="text/javascript" src="js/jquery.js"></script>
+        <script type="text/javascript" src="js/fontawesome.min.js"></script>
+        <script type="text/javascript" src="js/all.js"></script>
+        <script type="text/javascript" src="js/custom.js"></script>
+
+</body>
+
+</html>

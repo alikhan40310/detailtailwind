@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>HR Cases View - New </title>
+    <!-- CSS File attachment -->
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/responsive.css">
+
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" type="text/css" href="css/fontawesome.min.css">
+    <link rel="stylesheet" type="text/css" href="css/all.css">
+    <!-- fevicon icon -->
+    <link rel="icon" type="image/jpg" href="image/avatar.png">
+    <!-- google font attachment -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <section class="container mx-auto">
+        <div class="w-full">
+            <div class="flex justify-between">
+                <div class="mt-6">
+                    <h2 class="text-3xl font-bold capitalize text-gray-700">cases</h2>
+                </div>
+                <div class="flex">
+                    <div class="itemd flex flex-row mt-7 mr-6">
+                        <i class="fas fa-cog mt-1 mr-2 text-2xl text-teal-500 "></i>
+                        <span class="text-xl text-teal-500 font-semibold">Case template</span>
+                    </div>
+                    <button class="bg-teal-500 px-6 py-3 font-semibold text-white text-xl rounded mt-4" type="submit"><i class="fas fa-plus font-normal text-md mr-2"></i>New case</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="container mx-auto mt-10">
+        <div class="w-full">
+            <div class="flex flex-row w-full md:flex-nowrap lg:flex-nowrap sm:flex-wrap">
+                <div class="w-1/3 mr-14">
+                    <div class="w-full p-4 flex bg-stone-200 h-28 rounded-xl">
+                        <div class="flex items-center ml-10">
+                        <div class="bg-stone-800 pb-10 w-12 h-12 rounded-lg ">
+                            <div class="flex justify-center items-end pt-6">
+                                <div class="w-5 h-5 border-b-2 rounded-br-3xl rotate-45 border-r-2 border-white"></div>
+                            </div>
+                        </div>
+                        </div>
+                        <div class="ml-6 flex flex-col justify-center">
+                            <p class="text-xl capitalize text-stone-400 font-medium">closed</p>
+                            <span class="text-xl font-bold">40</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="w-2/5 mr-14">
+                    <div class="w-full p-4 flex bg-stone-200 h-28 rounded-xl">
+                        <div class="flex items-center ml-10">
+                        <div class="bg-stone-800 pb-10 w-12 h-12 rounded-lg">
+                            <div class="flex justify-center items-end pt-6">
+                                <div class="w-5 h-5 border-b-2 border-r-2 rounded-br-3xl rotate-45  border-white"></div>
+                            </div>
+                        </div>
+                        </div>
+                        <div class="ml-6 flex flex-col justify-center">
+                            <p class="text-xl capitalize text-stone-400 font-medium">pending response</p>
+                            <span class="text-xl font-bold">20</span>
+                        </div>
+                    </div>
+                </div>
+                <div class=" w-1/3 mr-14">
+                    <div class="w-full p-4 flex bg-stone-200 h-28 rounded-xl">
+                        <div class="flex items-center ml-10">
+                        <div class="bg-stone-800 pb-10 w-12 h-12 rounded-lg">
+                            <div class="flex justify-center items-end pt-6">
+                                <div class="w-5 h-5 border-b-2 rounded-br-3xl rotate-45 border-r-2 border-white"></div>
+                            </div>
+                        </div>
+                        </div>
+                        <div class="ml-6 flex flex-col justify-center">
+                            <p class="text-xl capitalize text-stone-400 font-medium">unassigned</p>
+                            <span class="text-xl font-bold">12</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="w-1/3">
+                    <div class="w-full p-4 flex bg-stone-200 h-28 rounded-xl">
+                        <div class="flex items-center ml-10">
+                        <div class="bg-stone-800 pb-10 w-12 h-12 rounded-lg">
+                            <div class="flex justify-center items-end pt-6">
+                                <div class="w-5 h-5 border-b-2 rounded-br-3xl rotate-45 border-r-2 border-white"></div>
+                            </div>
+                        </div>
+                        </div>
+                        <div class="ml-6 flex flex-col justify-center">
+                            <p class="text-xl capitalize text-stone-400 font-medium">Total Cases</p>
+                            <span class="text-xl font-bold">72</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="container mx-auto mt-10">
+        <div class="font-body">
+            <div class="flex">
+                <div class="flex flex-row w-full">
+                    <input class="rounded-lg w-full focus:outline-none border border-stone-300 px-12 py-5 text-xl text-stone-500" type="search" placeholder="Cases:Management">
+                    <div class="absolute px-4 pt-px">
+                        <i class="fas fa-search text-base font-normal text-stone-400 mt-7"></i>
+                    </div>
+                </div>
+              <div class="ml-8 mt-4">
+                  <button type="submit"><i class="text-3xl font-normal mr-3 text-stone-400 fas fa-bars"></i></button>
+              </div>
+            </div>
+        </div>
+    </section>                            
+<section class="container mx-auto">
+    <table class="table-fixed w-full mt-10">
+        <thead class="text-left">
+            <tr class="border-b border-stone-300">
+                <th class="text-xl text-gray-800 flex flex-row pb-6">
+                    <p>Status</p> 
+                    <div class="ml-2 mt-2 flex justify-center items-center bg-stone-500 w-5 h-5 rounded-full">
+                        <i class="text-white text-sm fas fa-bars"></i>
+                    </div>
+                </th>
+                <th class="pb-4 text-xl text-gray-800">Case ID</th>
+                <th class="pb-4 text-xl text-gray-800">Folder</th>
+                <th class="pb-4 text-xl text-gray-800">Title</th>
+                <th class="pb-4 text-xl text-gray-800">Last updated</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr class="border-b border-stone-300">
+                <td class="text-xl pb-6 pt-6">
+                    <div class="leading-5 bg-teal-500/20 capitalize font-semibold text-teal-500 w-28 p-2 flex justify-center items-center rounded-2xl">open</div>
+                </td>
+                <td class="pb-4 text-xl text-gray-800 font-semibold">C-001</td>
+                <td class="pb-4 text-xl text-gray-800 font-semibold">Management</td>
+                <td class="pb-4 text-xl text-gray-800 font-semibold">Cyberbullying</td>
+                <td class="pb-4 text-xl text-gray-800 font-semibold">Jun 2 2021</td>
+            </tr>
+            <tr class="border-b border-stone-300">
+                <td class="text-xl pb-6 pt-6">
+                    <div class="leading-5 bg-amber-400/20 capitalize font-semibold text-amber-500 w-28 p-2 flex justify-center items-center rounded-2xl">pending</div>
+                </td>
+                <td class="pb-4 text-xl text-gray-800">C-001</td>
+                <td class="pb-4 text-xl text-gray-800">Management</td>
+                <td class="pb-4 text-xl text-gray-800">Cyberbullying</td>
+                <td class="pb-4 text-xl text-gray-800">Jun 2 2021</td>
+            </tr>
+            <tr class="border-b border-stone-300">
+                <td class="text-xl pb-6 pt-6">
+                    <div class="leading-5 bg-teal-500/20 capitalize font-semibold text-teal-500 w-28 p-2 flex justify-center items-center rounded-2xl">open</div>
+                </td>
+                <td class="pb-4 text-xl text-gray-800 font-semibold">C-001</td>
+                <td class="pb-4 text-xl text-gray-800 font-semibold">Management</td>
+                <td class="pb-4 text-xl text-gray-800 font-semibold">Cyberbullying</td>
+                <td class="pb-4 text-xl text-gray-800 font-semibold">Jun 2 2021</td>
+            </tr>
+            <tr class="border-b border-stone-300">
+                <td class="text-xl pb-6 pt-6">
+                    <div class="leading-5 bg-amber-400/20 capitalize font-semibold text-amber-500 w-28 p-2 flex justify-center items-center rounded-2xl">pending</div>
+                </td>
+                <td class="pb-4 text-xl text-gray-800">C-001</td>
+                <td class="pb-4 text-xl text-gray-800">Management</td>
+                <td class="pb-4 text-xl text-gray-800">Cyberbullying</td>
+                <td class="pb-4 text-xl text-gray-800">Jun 2 2021</td>
+            </tr>
+        </tbody>
+    </table>
+</section>
+    <!-- jquery attachment -->
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/fontawesome.min.js"></script>
+    <script type="text/javascript" src="js/all.js"></script>
+    <script type="text/javascript" src="js/custom.js"></script>
+
+</body>
+
+</html>

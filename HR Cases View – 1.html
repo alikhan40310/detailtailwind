@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>HR Cases View – 1</title>
+    <!-- CSS File attachment -->
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/responsive.css">
+    <link rel="stylesheet" type="text/css" href="css/fontawesome.min.css">
+    <link rel="stylesheet" type="text/css" href="css/all.css">
+    <!-- fevicon icon -->
+    <link rel="icon" type="image/jpg" href="image/avatar.png">
+    <!-- google font attachment -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <section>
+        <div class="container mt-10 mx-auto flex flex-row flex-wrap">
+            <div class="p-5 w-1/4">
+                <div class="content">
+                    <h2 class="text-4xl font-semibold">Ticket Templates</h2>
+                    <ul class="mt-6">
+                        <li class="active:bg-gray-500 bg-gray-500 text-white transition ease-in delay-100 mb-2 p-1 hover:text-white w-40 rounded hover:bg-gray-500 text-xl font-semibold"><a class="" href="#">Basic</a></li>
+                        <li class="transition ease-in delay-100 mb-2 p-1 hover:text-white w-40 rounded hover:bg-gray-500 text-xl font-semibold"><a href="#">Benefits</a></li>
+                        <li class="transition ease-in delay-100 mb-2 p-1 hover:text-white w-40 rounded hover:bg-gray-500 text-xl font-semibold"><a href="#">Compensation</a></li>
+                        <li class="transition ease-in delay-100 mb-2 p-1 hover:text-white w-40 rounded hover:bg-gray-500 text-xl font-semibold"><a href="#">PTO</a></li>
+                    </ul>
+                    <div class="mt-2">
+                        <i class="fas fa-plus text-green-cus font-light"></i>
+                        <span class="text-2xl text-green-cus font-normal ">Create new</span>
+                    </div>
+                </div>
+            </div>
+            <div class="bg-white p-5 border border-gray-300 rounded-xl w-2/3 mb-8">
+                <div class="content cusradio">
+                    <h2 class="text-3xl font-semibold">Use your voice</h2>
+                    <div class="line w-full h-px mt-8 bg-gray-400"></div>
+                    <h3 class="text-2xl mt-5 text-gray-700">Whould you like to submit anonymously?</h3>
+                    <div class="flex justify-between">
+                        <div class="mt-5">
+                            <div class="mr-4 mb-4">
+                                <input id="radio1" type="radio" name="radio" class="hidden" checked />
+                                <label for="radio1" class="flex items-center cursor-pointer text-2xl">
+                                <span class="w-6 h-6 inline-block mr-2 mt-1 rounded-full border-2 border-gray-500 flex-no-shrink"></span>
+                            Yes</label>
+                            </div>
+                            <div class="mr-4 mb-4">
+                                <input id="radio2" type="radio" name="radio" class="hidden" />
+                                <label for="radio2" class="flex items-center cursor-pointer text-2xl">
+                                <span class="w-6 h-6 inline-block mr-2 mt-1 rounded-full border-2 border-gray-500 flex-no-shrink"></span>
+                            No</label>
+                            </div>
+                        </div>
+                        <div class="mt-6">
+                            <a href="#"><i class="text-2xl text-gray-400 mr-2 far fa-trash-alt"></i></a>
+                            <a href="#"><i class="text-2xl text-gray-400 fas fa-th"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="sec">
+                    <h3 class="text-2xl mt-5 text-gray-700">Please describe what happened</h3>
+                    <textarea class="resize-none w-full border mt-8 placeholder:italic border-gray-300 h-40 p-3 text-lg focus:outline-none" placeholder="please include as much detail as you're comfortable with"></textarea>
+                    <h3 class="text-2xl mt-5 text-gray-700">Do you have a preference</h3>
+                    <textarea class="resize-none w-full border mt-8 placeholder:italic border-gray-300 h-40 p-3 text-lg focus:outline-none" placeholder="please include as much detail as you're comfortable with"></textarea>
+                    <h3 class="text-2xl mt-5 text-gray-700">Date and time picker</h3>
+                    <input class="w-1/4 border border-gray-300 mt-2 text-xl p-4" type="text" placeholder="DD - MM - YY" onfocus="(this.type='date')" onblur="(this.type='text')" id="date">
+                    <i class="cusicons relative content mrf-10 text-xl text-gray-400 mt-8 fas fa-chevron-down"></i>
+                    <div class="mt-5">
+                        <i class="fas fa-plus text-green-cus font-light"></i>
+                        <span class="text-2xl text-green-cus font-normal ">Add another incident date</span>
+                    </div>
+                    <button class="text-2xl capitalize bg-green-cus text-white p-3 rounded mt-8" type="submit">submit</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- jquery attachment -->
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/fontawesome.min.js"></script>
+    <script type="text/javascript" src="js/all.js"></script>
+    <script type="text/javascript" src="js/custom.js"></script>
+
+</body>
+
+</html>

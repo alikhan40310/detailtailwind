@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Feedback</title>
+    <!-- CSS File attachment -->
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/responsive.css">
+    <link rel="stylesheet" type="text/css" href="css/fontawesome.min.css">
+    <link rel="stylesheet" type="text/css" href="css/all.css">
+    <!-- fevicon icon -->
+    <link rel="icon" type="image/jpg" href="image/avatar.png">
+    <!-- google font attachment -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <section>
+        <div class="container mt-10 mx-auto justify-between flex flex-wrap flex-col md:flex-row items-center">
+            <div class="list">
+                <ul class="flex pl-6">
+                    <li class="pr-10 capitalize text-2xl"><a href="index.html">Details</a></li>
+                    <li class="pr-10 capitalize font-medium text-gray-600 text-2xl"><a href="notes.html">notes</a></li>
+                    <li class="pr-10 capitalize font-medium text-gray-600 text-2xl"><a href="case.html">case history</a></li>
+                    <li class="pr-10 capitalize font-semibold text-green-500 font-medium text-gray-600 text-2xl"><a href="feedback.html">feedback</a></li>
+                </ul>
+            </div>
+            <div class="line w-full h-1 mb-10 mt-2 rounded bg-gray-400"></div>
+        </div>
+    </section>
+
+    <section>
+        <div class="container mx-auto pb-10">
+            <div class="bg-white p-5 border border-gray-300 rounded-xl mr-10 w-full pb-20">
+                <div class="flex justify-between">
+                    <h3 class="text-2xl text-gray-500">Feedback surveys are sent upon closing the ticket</h3>
+                    <button class="bg-green-cus px-6 py-2 rounded-lg text-white text-lg" type="submit">Edit</button>
+                </div>
+                <h3 class="text-3xl mb-5 font-semibold mt-10 capitalize">Responses</h3>
+                <h2 class="text-2xl font-semibold"><span class="pr-5">1</span> How satisfied are you with the response to your ticket?</h2>
+                <div class="checkbox">
+                    <form class="testform">
+                        <div class="flex flex-col ml-8 mt-5">
+                            <div class="mb-2">
+                                <input type="checkbox" id="ticket" name="response" value="satisfied">
+                                <label for="ticket" class="text-2xl ml-2 text-gray-500">Very satisfied</label>
+                            </div>
+                            <div class="mb-2">
+                                <input type="checkbox" id="ticket2" name="Supporting" value="Supporting">
+                                <label for="ticket2" class="text-2xl ml-2 text-gray-500">Supporting the employee</label>
+                            </div>
+                            <div class="mb-2">
+                                <input type="checkbox" id="ticket3" name="Somewhat" value="Somewhat">
+                                <label for="ticket3" class="text-2xl ml-2 text-gray-500">Somewhat dissatisfied</label>
+                            </div>
+                            <div class="block">
+                                <input type="checkbox" id="ticket4" name="dissatisfied" value="dissatisfied">
+                                <label for="ticket4" class="text-2xl ml-2 text-gray-500">Very dissatisfied</label>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <h2 class="text-2xl font-semibold mt-10"><span class="pr-5">2</span> How relevant was the response to your ticket?</h2>
+                <div class="checkbox">
+                    <form class="testform">
+                        <div class="flex flex-col ml-8 mt-5">
+                            <div class="mb-2">
+                                <input type="checkbox" id="response" name="response" value="relevant">
+                                <label for="response" class="text-2xl ml-2 text-gray-500">Very relevant</label>
+                            </div>
+                            <div class="mb-2">
+                                <input type="checkbox" id="response2" name="Supporting" value="Somewhat">
+                                <label for="response2" class="text-2xl ml-2 text-gray-500">Somewhat relevant</label>
+                            </div>
+                            <div class="mb-2">
+                                <input type="checkbox" id="response3" name="Somewhat" value="irrelevant">
+                                <label for="response3" class="text-2xl ml-2 text-gray-500">Somewhat irrelevant</label>
+                            </div>
+                            <div class="block">
+                                <input type="checkbox" id="response4" name="irrelevant" value="Veryirrelevant">
+                                <label for="response4" class="text-2xl ml-2 text-gray-500">Very irrelevant</label>
+                            </div>
+                            <h2 class="text-2xl ml-1 mt-5 text-gray-800">No response yet</h2>
+                        </div>
+                    </form>
+                </div>
+                <h2 class="text-2xl font-semibold mt-10"><span class="pr-5">3</span> What can we do to improve this experience?</h2>
+                <h2 class="text-2xl ml-10 mt-5 text-gray-800">No response yet</h2>
+            </div>
+        </div>
+    </section>
+
+    
+<!-- edit section of feedback -->
+    <div class="container mx-auto pb-10">
+        <div class="flex justify-between">
+            <h3 class="text-2xl text-gray-500">Feedback surveys are sent upon closing the ticket</h3>
+            <button class="bg-green-cus px-6 py-2 rounded-lg text-white text-lg" type="submit">Edit</button>
+        </div>
+        <h3 class="text-3xl mb-5 font-semibold mt-10 capitalize">Responses</h3>
+        <div class="review">
+            <h2 class="text-2xl font-semibold">How satisfied are you with the response to your ticket?</h2>
+            <p class="text-xl mt-2 text-gray-500">Somewhat satisfied</p>
+        </div>
+        <div class="review mb-2">
+            <h2 class="text-2xl font-semibold">How relevant was the response to your ticket?</h2>
+            <p class="text-xl mt-2 text-gray-500">very satisfied</p>
+        </div>
+        <div class="review mb-2">
+            <h2 class="text-2xl font-semibold">What can we do to improve this experience?</h2>
+            <p class="text-xl mt-2 text-gray-500">service can be improved</p>
+        </div>
+    </div>
+
+
+
+
+        <!-- jquery attachment -->
+        <script type="text/javascript" src="js/jquery.js"></script>
+        <script type="text/javascript" src="js/fontawesome.min.js"></script>
+        <script type="text/javascript" src="js/all.js"></script>
+        <script type="text/javascript" src="js/custom.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>HR case creation 2</title>
+    <!-- CSS File attachment -->
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/responsive.css">
+
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" type="text/css" href="css/fontawesome.min.css">
+    <link rel="stylesheet" type="text/css" href="css/all.css">
+    <!-- fevicon icon -->
+    <link rel="icon" type="image/jpg" href="image/avatar.png">
+    <!-- google font attachment -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <section>
+        <div class="container mx-auto">
+            <h2 class="text-2xl mt-10 font-bold mb-8 text-gray-800">New case</h2>
+            <div class="bg-white p-5 border border-gray-300 rounded-xl mr-10 w-1/2 mb-6">
+                <div class="flex flex-row mt-6">
+                    <h2 class="text-2xl text-gray-800 font-medium capitalize">attachments</h2>
+                    <span class="mt-2 text-lg text-gray-400 capitalize ml-6 font-normal">optional</span>
+                </div>
+                <div class="mt-3">
+                    <i class="fas fa-plus text-teal-500 font-base font-semibold text-base"></i>
+                    <span class="text-2xl text-teal-500 font-medium">Add attachment</span>
+                </div>
+                <div class="flex flex-row mt-6">
+                    <h2 class="text-2xl text-gray-800 font-medium capitalize">Notes about this case</h2>
+                    <span class="mt-2 text-lg text-gray-400 capitalize ml-6 font-normal">optional</span>
+                </div>
+                <textarea placeholder="Write something here" class="focus:outline-none w-full border border-gray-300 rounded-lg mt-6 resize-none h-40 p-5 text-lg text-gray-500"></textarea>
+                <p class="text-lg font-medium mt-6 text-gray-800">By submitting this case, you agree to the Ariglad terms of service and privacy policy</p>
+                <div class="checkbox">
+                    <div class="mt-5 mb-2">
+                        <input type="checkbox" id="todo" name="writing" value="manager">
+                        <label for="todo" class="text-xl ml-2">I agree to the Ariglad terms of service and privacy policy</label>
+                    </div>
+                </div>
+                <div class="flex justify-end">
+                    <button class="capitalize text-xl bg-teal-500 border border-teal-500 px-6 text-white font-medium rounded py-3 mt-10">submit</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- jquery attachment -->
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/fontawesome.min.js"></script>
+    <script type="text/javascript" src="js/all.js"></script>
+    <script type="text/javascript" src="js/custom.js"></script>
+
+</body>
+
+</html>
