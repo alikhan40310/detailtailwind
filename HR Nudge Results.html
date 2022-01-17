@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Employee Home – Empty state</title>
+    <title>HR Nudge Results</title>
     <!-- CSS File attachment -->
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <link rel="stylesheet" type="text/css" href="css/responsive.css">
@@ -23,23 +23,102 @@
 
 <body>
     <section>
-        <div class="container mx-auto mt-20 border-t border-gray-400">
-            <div class="flex flex-row">
-                <div class="w-full h-screen border-r border-gray-300">
-                    <h2 class="text-2xl mt-10 font-bold mb-12 text-gray-800">My AMAs</h2>
-                    <div class="bg-white mt-6 p-5 border border-gray-300 rounded-xl mr-10 ">
-                        <div class="p-5">
-                            <div class="flex justify-center items-center text-center">
-                                <div class=" ml-4">
-                                    <p class="text-xl text-gray-700 mt-6 font-medium">No AMAs to submit!</p>
-                                    <p class="text-xl text-gray-700 font-medium">Have a question or concern? Submit it below</p>
-                                    <button class="mt-4 border-teal-500 bg-teal-500 text-white border px-6 text-xl rounded-lg font-medium capitalize py-3" type="submit">Submit question or concern<i class="ml-3 fas rotate-45 fa-paper-plane"></i></button>
-                                </div>
+        <div class="container mx-auto mt-20">
+            <h2 class="text-3xl text-gray-800 font-semibold">Nudges</h2>
+            <ul class="mt-10 mb-4">
+                <li class="inline-block"><a class="font-semibold text-teal-500 text-2xl capitalize" href="#">custom</a></li>
+                <li class="inline-block ml-10"><a class="text-gray-500 text-2xl capitalize font-normal " href="#">happiness</a></li>
+            </ul>
+        </div>
+    </section>
+    <section>
+        <div class="container mx-auto border-t border-gray-400">
+            <div class="relative flex flex-row">
+                <div class="w-2/3 h-screen border-r border-gray-300 pr-4">
+                    <div class="flex mt-10 flex-wrap gap-4">
+                        <div class="flex flex-grow bg-gray-200 h-28 rounded-xl">
+                            <div class="p-5">
+                                <p class="text-lg capitalize text-stone-400 font-medium">Overall</p>
+                                <h2 class="text-2xl font-bold">Amazing</h2>
+                            </div>
+                        </div>
+                        <div class="flex-grow flex bg-gray-200 h-28 rounded-xl">
+                            <div class="p-5">
+                                <p class="text-lg capitalize text-stone-400 font-medium">Amazing</p>
+                                <h2 class="text-2xl font-bold">20</h2>
+                            </div>
+                        </div>
+                        <div class="flex flex-grow bg-gray-200 h-28 rounded-xl">
+                            <div class="p-5">
+                                <p class="text-lg capitalize text-stone-400 font-medium">Great</p>
+                                <h2 class="text-2xl font-bold">12</h2>
+                            </div>
+                        </div>
+                        <div class="flex bg-gray-200 h-28 rounded-xl">
+                            <div class="p-5">
+                                <p class="text-lg capitalize text-stone-400 font-medium">Neutral</p>
+                                <h2 class="text-2xl font-bold">12</h2>
+                            </div>
+                        </div>
+                        <div class="flex bg-gray-200 h-28 rounded-xl">
+                            <div class="p-5 pr-10">
+                                <p class="text-lg capitalize text-stone-400 font-medium">Bad</p>
+                                <h2 class="text-2xl font-bold">12</h2>
+                            </div>
+                        </div>
+                        <div class="flex-grow flex bg-gray-200 h-28 rounded-xl">
+                            <div class="p-5">
+                                <p class="text-lg capitalize text-stone-400 font-medium">Terrible</p>
+                                <h2 class="text-2xl font-bold">12</h2>
                             </div>
                         </div>
                     </div>
+                    <table class="table-fixed w-full mt-10">
+                        <thead class="text-left">
+                            <tr class="border-b border-stone-300">
+                                <th class="pb-6 text-xl text-gray-800">Submitter</th>
+                                <th class="pb-6 text-xl text-gray-800">Response</th>
+                                <th class="pb-6 pl-6 text-xl text-gray-800">Last updated</th>
+                                <th class="pb-6 text-xl text-gray-800">Action</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr class="border-b border-stone-300 pt-10 pb-10">
+                                <td class="pb-8 text-lg text-gray-800">Anonymous</td>
+                                <td class="pb-8 text-lg text-gray-800">Amazing</td>
+                                <td class="pb-8 pl-6 text-lg text-gray-800">Jun 2 2021</td>
+                                <td class="pb-8 pt-3 text-lg text-gray-800">
+                                    <button class="transition delay-400 hover:bg-teal-500 hover:text-white border border-teal-500 px-6 py-2 rounded-lg text-teal-500 capitalize text-xl font-medium" type="submit">reply</button>
+                                </td>
+                            </tr>
+                            <tr class="border-b border-stone-300 pt-10 pb-10">
+                                <td class="pb-8 text-lg text-gray-800">Anonymous</td>
+                                <td class="pb-8 text-lg text-gray-800">Amazing</td>
+                                <td class="pb-8 pl-6 text-lg text-gray-800">Jun 2 2021</td>
+                                <td class="pb-8 pt-3 text-lg text-gray-800">
+                                    <button class="transition delay-400 hover:bg-teal-500 hover:text-white border border-teal-500 px-6 py-2 rounded-lg text-teal-500 capitalize text-xl font-medium" type="submit">reply</button>
+                                </td>
+                            </tr>
+                            <tr class="border-b border-stone-300 pt-10 pb-10">
+                                <td class="pb-8 text-lg text-gray-800">Anonymous</td>
+                                <td class="pb-8 text-lg text-gray-800">Amazing</td>
+                                <td class="pb-8 pl-6 text-lg text-gray-800">Jun 2 2021</td>
+                                <td class="pb-8 pt-3 text-lg text-gray-800">
+                                    <button class="transition delay-400 hover:bg-teal-500 hover:text-white border border-teal-500 px-6 py-2 rounded-lg text-teal-500 capitalize text-xl font-medium" type="submit">reply</button>
+                                </td>
+                            </tr>
+                            <tr class="border-b border-stone-300 pt-10 pb-10">
+                                <td class="pb-8 text-lg text-gray-800">Anonymous</td>
+                                <td class="pb-8 text-lg text-gray-800">Amazing</td>
+                                <td class="pb-8 pl-6 text-lg text-gray-800">Jun 2 2021</td>
+                                <td class="pb-8 pt-3 text-lg text-gray-800">
+                                    <button class="transition delay-400 hover:bg-teal-500 hover:text-white border border-teal-500 px-6 py-2 rounded-lg text-teal-500 capitalize text-xl font-medium" type="submit">reply</button>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
                 </div>
-                <div class="w-1/2 ml-14">
+                <div class="w-1/2 p-4">
                     <h2 class="text-2xl mt-10 font-bold mb-4 text-gray-800">HR Initiatives</h2>
                     <div class="pb-5">
                         <div class="flex">
