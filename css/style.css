@@ -4,9 +4,6 @@ body {
     background-color: #F8F8F8;
     font-family: 'Poppins', sans-serif;
 }
-.clear {
-    clear: both;
-}
 .dates ul li::before {  
   content: "\2022";
   color: #97D3CC;
@@ -57,9 +54,6 @@ body {
 .checkbox input[type=checkbox]:active + label:before{
     transform: scale(1);
 }
-/*
-    edit page style 
-*/
 .h-line::before{
     position: absolute;
     content: '';
@@ -90,4 +84,3 @@ body {
     /*left: 10rem;*/
     right: 47rem;
 }
-               
