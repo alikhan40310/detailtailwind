@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>HR Nudge Response</title>
+    <!-- CSS File attachment -->
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/responsive.css">
+     <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" type="text/css" href="css/fontawesome.min.css">
+    <link rel="stylesheet" type="text/css" href="css/all.css">
+    <!-- fevicon icon -->
+    <link rel="icon" type="image/jpg" href="image/avatar.png">
+    <!-- google font attachment -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+  
+    <dialog open class="w-full bg-gray-800/30 h-screen">
+        <div class="container mx-auto flex justify-center w-2/3">
+            <div class="p-5 bg-white mt-20 w-full rounded-xl rounded-xl">
+                <div class="flex justify-between">
+                    <h2 class="text-lg font-normal text-gray-500">AMA title</h2>
+                    <div class="cursor-pointer">
+                        <div class="relative flex items-center w-6 h-6 justify-center rounded-full bg-gray-200">
+                            <i class="fas text-sm text-gray-400 font-normal fa-times justify-end"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex mt-6">
+                    <div class="w-1/2 border-r border-t border-gray-300">
+                        <div class="mt-10">
+                            <h2 class="text-gray-400 text-2xl font-semibold">Write a question</h2>
+                            <h4 class="text-lg text-gray-600 font-medium mt-4">Response type</h4>
+                            <div class="flex flex-row mt-3">
+                                <button class="bg-blue-300/30 font-medium px-8 py-3 text-gray-700 rounded-3xl text-xl">Text</button>
+                                <button class="bg-blue-300/30 font-medium px-8 py-3 text-gray-700 rounded-3xl text-xl ml-4">Numeric scale</button>
+                            </div>
+                            <h4 class="text-lg text-gray-600 font-medium mt-2">Send on</h4>
+                            <div class="flex flex-row">
+                                <h4 class="text-xl text-gray-600 font-semibold mt-2">Friday, Jul 12</h4>
+                                <h4 class="text-xl text-gray-600 font-semibold mt-2 ml-2">9:00 AM EST</h4>
+                            </div>
+                            <h4 class="text-xl text-gray-700 font-medium mt-2">Does not repeat</h4>
+                            <h4 class="text-lg text-gray-800 font-medium mt-4">Choose Slack channel</h4>
+                            <div class="mt-4">
+                                <select class="w-1/2 bg-transparent border-2 border-gray-200 rounded  p-2 text-xl text-gray-500" name="dropdown" id="talent">
+                                    <option value="#talent-team">#talent-team</option>
+                                    <option value="#other-team">#other-team</option>
+                                    <option value="#my-team">#my-team</option>
+                                </select>
+                            </div>
+                            <button class="capitalize text-xl bg-teal-500 border border-teal-500 px-6 text-white font-semibold rounded-lg py-3 mt-6">save</button>
+                        </div>
+                    </div>
+                    <div class="w-1/2 border-t border-gray-300">
+                        <div class="mt-10 px-12">
+                            <h2 class="capitalize text-gray-900 text-3xl font-semibold">preview</h2>
+                            <div class="flex flex-row mt-10">
+                                <div class="img w-16 h-16">
+                                    <img src="image/8149fea6.png" alt="">
+                                </div>
+                                <div class="ml-4 mt-2">
+                                    <h2 class="text-xl font-semibold text-gray-800">Ariglad</h2>
+                                    <p class="text-lg text-gray-500">Name</p>
+                                </div>
+                            </div>
+                            <div class="ml-20">
+                                <h4 class="text-2xl text-gray-700 font-medium mt-2">Here is a question</h4>
+                                <p class="text-gray-400 text-lg">Your response will not be displayed in this channel</p>
+                                <div class="flex flex-row mt-4">
+                                    <button class="w-20 rounded h-3 border-b-2 border-t-gray-400	border-t-2 border-l-2 border-l-gray-400 border-r-2 border-black p-4 flex justify-center items-center">
+                                        <div class="bg-gradient-to-t from-cyan-600 to-white via-cyan-500 w-4 h-4 shadow-xl shadow-inner bg-cyan-600 text-white p-3 rounded-lg font-semibold flex justify-center items-center">1</div>
+                                    </button>
+                                    <button class="ml-2 w-20 rounded h-3 border-b-2 border-t-gray-400	border-t-2 border-l-2 border-l-gray-400 border-r-2 border-black p-4 flex justify-center items-center">
+                                        <div class="bg-gradient-to-t from-cyan-600 to-white via-cyan-500 w-4 h-4 shadow-xl shadow-inner bg-cyan-600 text-white p-3 rounded-lg font-semibold flex justify-center items-center">2</div>
+                                    </button>
+                                    <button class="ml-2 w-20 rounded h-3 border-b-2 border-t-gray-400	border-t-2 border-l-2 border-l-gray-400 border-r-2 border-black p-4 flex justify-center items-center">
+                                        <div class="bg-gradient-to-t from-cyan-600 to-white via-cyan-500 w-4 h-4 shadow-xl shadow-inner bg-cyan-600 text-white p-3 rounded-lg font-semibold flex justify-center items-center">3</div>
+                                    </button>
+                                    <button class="ml-2 w-20 rounded h-3 border-b-2 border-t-gray-400	border-t-2 border-l-2 border-l-gray-400 border-r-2 border-black p-4 flex justify-center items-center">
+                                        <div class="bg-gradient-to-t from-cyan-600 to-white via-cyan-500 w-4 h-4 shadow-xl shadow-inner bg-cyan-600 text-white p-3 rounded-lg font-semibold flex justify-center items-center">4</div>
+                                    </button>
+                                    <button class="ml-2 w-20 rounded h-3 border-b-2 border-t-gray-400	border-t-2 border-l-2 border-l-gray-400 border-r-2 border-black p-4 flex justify-center items-center">
+                                        <div class="bg-gradient-to-t from-cyan-600 to-white via-cyan-500 w-4 h-4 shadow-xl shadow-inner bg-cyan-600 text-white p-3 rounded-lg font-semibold flex justify-center items-center">5</div>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>    
+    </dialog>
+        <!-- jquery attachment -->
+        <script type="text/javascript" src="js/jquery.js"></script>
+        <script type="text/javascript" src="js/fontawesome.min.js"></script>
+        <script type="text/javascript" src="js/all.js"></script>
+        <script type="text/javascript" src="js/custom.js"></script>
+
+</body>
+
+</html>
